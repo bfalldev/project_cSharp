@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bd_samadaraModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="affecter">
+    <Key>
+      <PropertyRef Name="idEleve" />
+      <PropertyRef Name="idClasse" />
+      <PropertyRef Name="idExercice" />
+    </Key>
+    <Property Name="idEleve" Type="Int32" Nullable="false" />
+    <Property Name="idClasse" Type="Int32" Nullable="false" />
+    <Property Name="idExercice" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="classe">
+    <Key>
+      <PropertyRef Name="idClasse" />
+    </Key>
+    <Property Name="idClasse" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="libelle" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="niveau" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="eleve">
+    <Key>
+      <PropertyRef Name="idEleve" />
+    </Key>
+    <Property Name="idEleve" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="matricule" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nom" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="prenom" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sexe" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dateNaiss" Type="DateTime" Nullable="false" />
+    <Property Name="lieuNaiss" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="exercice">
+    <Key>
+      <PropertyRef Name="idExercice" />
+    </Key>
+    <Property Name="idExercice" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="annee" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="inscription">
+    <Key>
+      <PropertyRef Name="idInscription" />
+    </Key>
+    <Property Name="idInscription" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idService" Type="Int32" Nullable="false" />
+    <Property Name="idExercice" Type="Int32" Nullable="false" />
+    <Property Name="idEleve" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="parenteleve">
+    <Key>
+      <PropertyRef Name="idEleve" />
+      <PropertyRef Name="idParent" />
+    </Key>
+    <Property Name="idEleve" Type="Int32" Nullable="false" />
+    <Property Name="idParent" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="servive">
+    <Key>
+      <PropertyRef Name="idService" />
+    </Key>
+    <Property Name="idService" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="libelle" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="montant" Type="Single" Nullable="false" />
+    <Property Name="type" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tuteur">
+    <Key>
+      <PropertyRef Name="idTuteur" />
+    </Key>
+    <Property Name="idTuteur" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="prenom" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="adresse" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="civilite" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="parente" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cni" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="bd_samadaraEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="affecter" EntityType="Self.affecter" />
+    <EntitySet Name="classe" EntityType="Self.classe" />
+    <EntitySet Name="eleve" EntityType="Self.eleve" />
+    <EntitySet Name="exercice" EntityType="Self.exercice" />
+    <EntitySet Name="inscription" EntityType="Self.inscription" />
+    <EntitySet Name="parenteleve" EntityType="Self.parenteleve" />
+    <EntitySet Name="servive" EntityType="Self.servive" />
+    <EntitySet Name="tuteur" EntityType="Self.tuteur" />
+  </EntityContainer>
+</Schema>

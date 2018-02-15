@@ -1,0 +1,25 @@
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\IsiSamaDarra2018.exe.config
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\IsiSamaDarra2018.exe
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\IsiSamaDarra2018.pdb
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\EntityFramework.dll
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\EntityFramework.xml
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.csprojResolveAssemblyReference.cache
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.frmTuteur.resources
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.Properties.Resources.resources
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.csproj.GenerateResource.Cache
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.csproj.CoreCompileInputs.cache
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.exe
+C:\Users\mthioye\source\repos\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.pdb
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\IsiSamaDarra2018.exe.config
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.exe
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.pdb
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\IsiSamaDarra2018.exe
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\IsiSamaDarra2018.pdb
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\EntityFramework.dll
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\EntityFramework.xml
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.csprojResolveAssemblyReference.cache
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.frmTuteur.resources
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.Properties.Resources.resources
+C:\Users\BAYE FALL\Documents\Visual Studio 2015\Projects\IsiSamaDarra2018\IsiSamaDarra2018\obj\Debug\IsiSamaDarra2018.csproj.GenerateResource.Cache

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bd_samadaraModelStoreContainer" CdmEntityContainer="bd_samadaraEntities">
+    <EntitySetMapping Name="affecter">
+      <EntityTypeMapping TypeName="bd_samadaraModel.affecter">
+        <MappingFragment StoreEntitySet="affecter">
+          <ScalarProperty Name="idEleve" ColumnName="idEleve" />
+          <ScalarProperty Name="idClasse" ColumnName="idClasse" />
+          <ScalarProperty Name="idExercice" ColumnName="idExercice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="classe">
+      <EntityTypeMapping TypeName="bd_samadaraModel.classe">
+        <MappingFragment StoreEntitySet="classe">
+          <ScalarProperty Name="idClasse" ColumnName="idClasse" />
+          <ScalarProperty Name="libelle" ColumnName="libelle" />
+          <ScalarProperty Name="niveau" ColumnName="niveau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="eleve">
+      <EntityTypeMapping TypeName="bd_samadaraModel.eleve">
+        <MappingFragment StoreEntitySet="eleve">
+          <ScalarProperty Name="idEleve" ColumnName="idEleve" />
+          <ScalarProperty Name="matricule" ColumnName="matricule" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="sexe" ColumnName="sexe" />
+          <ScalarProperty Name="dateNaiss" ColumnName="dateNaiss" />
+          <ScalarProperty Name="lieuNaiss" ColumnName="lieuNaiss" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="exercice">
+      <EntityTypeMapping TypeName="bd_samadaraModel.exercice">
+        <MappingFragment StoreEntitySet="exercice">
+          <ScalarProperty Name="idExercice" ColumnName="idExercice" />
+          <ScalarProperty Name="annee" ColumnName="annee" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="inscription">
+      <EntityTypeMapping TypeName="bd_samadaraModel.inscription">
+        <MappingFragment StoreEntitySet="inscription">
+          <ScalarProperty Name="idInscription" ColumnName="idInscription" />
+          <ScalarProperty Name="idService" ColumnName="idService" />
+          <ScalarProperty Name="idExercice" ColumnName="idExercice" />
+          <ScalarProperty Name="idEleve" ColumnName="idEleve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="parenteleve">
+      <EntityTypeMapping TypeName="bd_samadaraModel.parenteleve">
+        <MappingFragment StoreEntitySet="parenteleve">
+          <ScalarProperty Name="idEleve" ColumnName="idEleve" />
+          <ScalarProperty Name="idParent" ColumnName="idParent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="servive">
+      <EntityTypeMapping TypeName="bd_samadaraModel.servive">
+        <MappingFragment StoreEntitySet="servive">
+          <ScalarProperty Name="idService" ColumnName="idService" />
+          <ScalarProperty Name="libelle" ColumnName="libelle" />
+          <ScalarProperty Name="montant" ColumnName="montant" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tuteur">
+      <EntityTypeMapping TypeName="bd_samadaraModel.tuteur">
+        <MappingFragment StoreEntitySet="tuteur">
+          <ScalarProperty Name="idTuteur" ColumnName="idTuteur" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="adresse" ColumnName="adresse" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="civilite" ColumnName="civilite" />
+          <ScalarProperty Name="parente" ColumnName="parente" />
+          <ScalarProperty Name="cni" ColumnName="cni" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
